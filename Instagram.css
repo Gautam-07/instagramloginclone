@@ -1,0 +1,388 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 110vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* ======================= */
+/* FRONT PAGE CSS START  */
+
+.frontpage_section{
+    width: 70%;
+    height: 80%;
+    margin-top: 32px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+/* PHONE CSS START  */
+
+.phone{
+    width: 45%;
+    height: 100%;
+    /* position: static; */
+    /* background-color: lightblue; */
+}
+.phone_img{
+    width: 100%;
+    height: 90%;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    /* object-fit: contain; */
+    /* position: relative; */
+    /* top: 10px; */
+    /* left: 10px; */
+}
+/* PHONE CSS END  */
+/* =================== */
+/* FORM CSS START  */
+.form{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+}
+.form>.formbox{
+    width: 90%;
+    height: 95%;
+    /* background-color: rgb(173, 206, 236); */
+    display: flex;
+    justify-content: space-between ;
+    flex-direction: column;
+}
+/* ------------------------------- */
+.loginbox{
+    width: 100%;
+    height: 65%;
+    margin-top: 10px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 2px;
+}
+.logo{
+    margin-top: 10px;
+    width: 100%;
+    height: 30%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo>.logo_img{
+    width: 50%;
+    height: 45%;
+    
+}
+/* -------------------------------- */
+.form_section{
+    width: 100%;
+    height: 33%;
+    /* background-color: lightblue; */
+    
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: lightcoral; */
+}
+form>.emailbox{
+    width: 76%;
+    height: 26%;
+    border: 0.5px solid rgb(202, 202, 202);
+    border-radius: 2px;
+    background-color: (249, 249, 249);
+}
+.emailbox>.email{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(249, 249, 249);
+
+}
+.emailbox>.email:focus{
+    border: 0.5px solid black;
+}
+form>.passwordbox{
+    width: 76%;
+    height: 26%;
+    border: 0.5px solid rgb(202, 202, 202);
+    background-color: rgb(249, 249, 249);
+    border-radius: 2px;
+}
+.passwordbox>.password{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(249, 249, 249);
+}
+.passwordbox>.password:focus{
+    border: 0.5px solid black;
+}
+
+form>.loginbutton{
+    width: 76%;
+    height: 23%;
+    margin-top: 10px;
+    background-color: rgb(87,164,248);
+    border-radius: 10px;
+}
+.loginbutton>.login{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(87,164,248);
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+/* -------------------------------- */
+.or{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    padding :20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: lightblue; */
+}
+.or>.ortext{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(96, 96, 96);
+    font-weight: 600;
+}
+.ortext::before, .ortext::after{
+    content: '────────';
+    width: 0%;
+    padding: 20px;
+    height: 0.5px;
+    color: rgb(202, 202, 202);
+}
+
+/* -------------------------------- */
+.facebook{
+    width: 100%;
+    height: 10%;
+    /* background-color: hotpink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebook>a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.facebook>a>.facebook_logo{
+    width: 26px;
+    height: 20px;
+    padding-right: 6px;
+}
+.fbbutton{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: rgb(87,164,248);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 560;
+
+}
+.facebook_logo:hover{
+    cursor: pointer;
+}   
+.fbbutton:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+/* ------------------------------------ */
+.forgotpassword{
+    width: 100%;
+    height: 10%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.forgotpassword_link{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(4,40,87);
+    /* font-weight: 600; */
+    text-decoration: none;
+}
+
+/* -------------------------------- */
+.singupbox{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 2px;
+}
+.signup_text{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.signup_link{
+    color: rgb(87,164,248);
+    font-weight: 600;
+    text-decoration: none;
+}
+/* -------------------------------- */
+.downloadbox{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: lightblue; */
+}
+.downloadbox>.download_text{
+    width: 30%;
+    height: 30%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dtext{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.download_icons{
+    width: 100%;
+    height: 80%;
+    /* padding-left: 50px; */
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space space-between;
+    
+}
+.apple{
+    margin-top: 10px;
+    width: 80%;
+    height: 40%;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightcoral; */
+}
+.apple>img{
+    margin-left: 10px;
+    width: 80%;
+    border: none;
+    outline: none;
+    height: 100%;
+}
+
+.google{
+    margin-top: 10px;
+    width: 80%;
+    height:40%;
+    border: none;
+    outline: none;
+    /* background-color: lightblue; */
+}
+.google>img{
+    margin-right: 10px;
+    width: 80%;
+    border: none;
+    outline: none;
+    height: 100%;
+}
+
+
+/* FORM CSS END  */
+/* =================== */
+
+/* ======================= */
+/* FOOTER CSS START  */
+.footer{
+    width: 90%;
+    height: 10%;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.upper_footer{
+    width: 70%;
+    height: 25%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.upper_footer>a{
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.upper_footer>a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.lower_footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 25%;
+    /* background-color: lightcyan; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lower_footer>.dropdown>.dmenu{
+    width: 80%;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(116, 116, 116);
+    border: none;
+    outline: none;
+}
+.lower_footer>.copy{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(116, 116, 116);
+}
+/* FOOTER CSS END  */
+/* ======================= */
+/* FRONT PAGE CSS END  */
+/* ======================= */
